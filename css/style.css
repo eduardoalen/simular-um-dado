@@ -12,6 +12,22 @@ h1 {
 .dado {
     font-size: 7rem;
     margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.rolar-animacao {
+    animation-name: rolar;
+}
+
+@keyframes rolar {
+    0%{
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    100%{
+        transform: rotateY(720deg) rotateX(720deg);
+    }
 }
 
 button {
