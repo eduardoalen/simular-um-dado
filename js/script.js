@@ -29,7 +29,7 @@ function atualizarHistoricoDado(){
     historicoRolagem.innerHTML = "";
     for(let i = 0; i<historicoLista.length; i++){
         const itemLista = document.createElement("li");
-        itemLista.innerHTML = `Girar ${i + 1}: <span>${getMostrarDado(historicoLista[i])}</span>`;
+        itemLista.innerHTML = `Giro ${i + 1}: <span>${getMostrarDado(historicoLista[i])}</span>`;
         historicoRolagem.appendChild(itemLista); //adiciona o item dentro da ul
     }
 }
